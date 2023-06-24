@@ -1,331 +1,439 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <title>Aiwei Zhang</title>
-  
+
   <meta name="author" content="Aiwei Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Aiwei Zhang</name>
-              </p>
-              <p>I am a rising Junior at <a href="https://home.dartmouth.edu/">Dartmouth College</a> majoring in Computer Science and minoring in Mathematics and Environmental Studies.
-              </p>
-              <p>
-                At Dartmouth, I am a research assistant at the <a href="https://rlab.cs.dartmouth.edu/home/"> Dartmouth Reality and Robotics Lab (RLab) </a>, where I'm advised by Professor <a href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li.</a> and mentored by <a href="https://www.samlensgraf.com/">Samuel Lensgraf</a>.
-                At the RLab, my research is funded by the <a href="https://students.dartmouth.edu/ugar/research/programs/undergraduate-research-assistantships-dartmouth-urad/program-information"> Undergraduate Research Assistantships at Dartmouth (URAD) </a> and the <a href="https://students.dartmouth.edu/ugar/research/programs/presidential-scholars/program-information">Presidential Scholarship</a>.
-                I'm also beginning my research in computer vision and computational imaging with Professor <a href="https://sites.google.com/view/adithyapediredla/">Adithya Pediredla</a> and <a href="https://juhyeonkim95.github.io/online-cv/"> Juhyeon Kim </a>.
-              </p>
-              <p>
-                In my free time, I enjoy skiing and mountain biking. I'm looking to get scuba diving certified this summer!
-              </p>
-              <p>
-                <strong>Research interests: </strong> Robotics, Marine Robotics, Computer Vision, Computational Imaging
-              </p>
-              <p>
-                <strong>CS courses: </strong> Intro to Programming (Python), Java Object Oriented Programming, Discrete Mathematics, Applied Computer Science (Linear Algebra), Algorithms, Robotics*, Music and AI, Software Engineering, Machine Learning and Data Analysis* (* = graduate level)
-              </p>
-              <p style="text-align:center">
-                <a href="#ResearchProjects">Research Projects</a> &nbsp/&nbsp
-                <a href="#PersonalProjects">Personal Projects</a> &nbsp/&nbsp
-                <a href="#PersonalProjects">Industry</a> &nbsp/&nbsp
-                <a href="#Teaching">Teaching</a> &nbsp/&nbsp
-                <a href="#Honors">Honors</a> &nbsp/&nbsp
-                <a href="#Blog">Blog</a>
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:aiwei.zhang.25@dartmouth.edu">Email</a> &nbsp/&nbsp
-                <a href="https://drive.google.com/file/d/1zFYvlnfrnSPThtMF3quvPXGBxX6ohISC/view?usp=drive_link">CV</a> &nbsp/&nbsp
-                <a href="https://github.com/theivyzhang/">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/ivyz.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ivyz_circle.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading id="ResearchProjects">Research Projects</heading>
-              <p>
-
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
-        <!-- RESEARCH PROJECTS -->
-
-          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ada_image'>
-                  <img src='images/droplet_demo.jpg' width="180"></div>
-                <img src='images/droplet_demo.jpg' width="180">
-              </div>
-              <script type="text/javascript">
-                function samurai_start() {
-                  document.getElementById('ada_image').style.opacity = "1";
-                }
-
-                function samurai_stop() {
-                  document.getElementById('ada_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Droplet: Visual Odometry for Precise State Estimation</papertitle>
-              <br>
-              <p>
-                <strong>Python, C++, OpenCV, ROS</strong>
-                <ul style="padding-left:20px">
-                  <li>Build a visual odometry model that estimates the movement of Droplet Autonomous Underwater Vehicle (AUV), for transporting blocks to build small scale structures</li>
-                  <li>Help assemble realistic robot compartments with 3D printers and hardware</li>
-                  <li>Conduct practical experiments at indoor pools and nearly lakes</li>
-                  <li>Advised by Professor Alberto Quattrini Li and mentored by Samuel Lensgraf</li>
-                </ul>
-              </p>
-            </td>
-          </tr>	
-
-          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ada_image'>
-                  <img src='images/tof_wiki.jpg' width="180"></div>
-                <img src='images/tof_wiki.jpg' width="180">
-              </div>
-              <script type="text/javascript">
-                function samurai_start() {
-                  document.getElementById('ada_image').style.opacity = "1";
-                }
-
-                function samurai_stop() {
-                  document.getElementById('ada_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Doppler Time-of-Flight Rendering and Algorithms</papertitle>
-              <br>
-              <p>
-                <strong>C++, Mitsuba, Falcor</strong>
-                <ul style="padding-left:20px">
-                  <li>Develop an efficient and accurate time-path sampling approach for Doppler Time-of-Flight imaging</li>
-                  <li>Conduct simulation experiments on Mitsuba and Falcor</li>
-                  <li>Advised by Professor Adithya Pediredla and mentored by Juhyeon Kim</li>
-                </ul>
-              </p>
-              <p style="text-align:left;font-size:small;">image from Wikipedia</p>
-            </td>
-          </tr>	
-          </tbody>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Aiwei Zhang</name>
+                  </p>
+                  <p>I am a rising Junior at <a href="https://home.dartmouth.edu/">Dartmouth College</a> majoring in
+                    Computer Science and minoring in Mathematics and Environmental Studies.
+                  </p>
+                  <p>
+                    At Dartmouth, I am a research assistant at the <a href="https://rlab.cs.dartmouth.edu/home/">
+                      Dartmouth Reality and Robotics Lab (RLab) </a>, where I'm advised by Professor <a
+                      href="https://rlab.cs.dartmouth.edu/albertoq/">Alberto Quattrini Li.</a> and mentored by <a
+                      href="https://www.samlensgraf.com/">Samuel Lensgraf</a>.
+                    At the RLab, my research is funded by the <a
+                      href="https://students.dartmouth.edu/ugar/research/programs/undergraduate-research-assistantships-dartmouth-urad/program-information">
+                      Undergraduate Research Assistantships at Dartmouth (URAD) </a> and the <a
+                      href="https://students.dartmouth.edu/ugar/research/programs/presidential-scholars/program-information">Presidential
+                      Scholarship</a>.
+                    I'm also beginning my research in computer vision and computational imaging with Professor <a
+                      href="https://sites.google.com/view/adithyapediredla/">Adithya Pediredla</a> and <a
+                      href="https://juhyeonkim95.github.io/online-cv/"> Juhyeon Kim </a>.
+                  </p>
+                  <p>
+                    In my free time, I enjoy skiing and mountain biking. I'm looking to get scuba diving certified this
+                    summer!
+                  </p>
+                  <p>
+                    <strong>Research interests: </strong> Robotics, Marine Robotics, Computer Vision, Computational
+                    Imaging
+                  </p>
+                  <p>
+                    <strong>CS courses: </strong> Intro to Programming (Python), Java Object Oriented Programming,
+                    Discrete Mathematics, Applied Computer Science (Linear Algebra), Algorithms, Robotics*, Music and
+                    AI, Software Engineering, Machine Learning and Data Analysis* (* = graduate level)
+                  </p>
+                  <p style="text-align:center">
+                    <a href="#ResearchProjects">Research Projects</a> &nbsp/&nbsp
+                    <a href="#PersonalProjects">Personal Projects</a> &nbsp/&nbsp
+                    <a href="#Industry">Industry</a> &nbsp/&nbsp
+                    <a href="#Teaching">Teaching</a> &nbsp/&nbsp
+                    <a href="#Honors">Honors</a> &nbsp/&nbsp
+                    <a href="#Blog">Blog</a>
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:aiwei.zhang.25@dartmouth.edu">Email</a> &nbsp/&nbsp
+                    <a
+                      href="https://drive.google.com/file/d/1zFYvlnfrnSPThtMF3quvPXGBxX6ohISC/view?usp=drive_link">CV</a>
+                    &nbsp/&nbsp
+                    <a href="https://github.com/theivyzhang/">Github</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="images/ivyz.jpg"><img style="width:100%;max-width:100%" alt="profile photo"
+                      src="images/ivyz_circle.png" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
           </table>
-        
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading id="ResearchProjects">Research Projects</heading>
+                  <p>
+
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <!-- RESEARCH PROJECTS -->
+
+              <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ada_image'>
+                      <img src='images/droplet_demo.jpg' width="180">
+                    </div>
+                    <img src='images/droplet_demo.jpg' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function samurai_start() {
+                      document.getElementById('ada_image').style.opacity = "1";
+                    }
+
+                    function samurai_stop() {
+                      document.getElementById('ada_image').style.opacity = "0";
+                    }
+                    samurai_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Droplet: Visual Odometry for Precise State Estimation</papertitle>
+                  <br>
+                  <p>
+                    <strong>Python, C++, OpenCV, ROS</strong>
+                  <ul style="padding-left:20px">
+                    <li>Build a visual odometry model that estimates the movement of Droplet Autonomous Underwater
+                      Vehicle (AUV), for transporting blocks to build small scale structures</li>
+                    <li>Help assemble realistic robot compartments with 3D printers and hardware</li>
+                    <li>Conduct practical experiments at indoor pools and nearly lakes</li>
+                    <li>Advised by Professor Alberto Quattrini Li and mentored by Samuel Lensgraf</li>
+                  </ul>
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ada_image'>
+                      <img src='images/tof_wiki.jpg' width="180">
+                    </div>
+                    <img src='images/tof_wiki.jpg' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function samurai_start() {
+                      document.getElementById('ada_image').style.opacity = "1";
+                    }
+
+                    function samurai_stop() {
+                      document.getElementById('ada_image').style.opacity = "0";
+                    }
+                    samurai_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Doppler Time-of-Flight Rendering and Algorithms</papertitle>
+                  <br>
+                  <p>
+                    <strong>C++, Mitsuba, Falcor</strong>
+                  <ul style="padding-left:20px">
+                    <li>Develop an efficient and accurate time-path sampling approach for Doppler Time-of-Flight imaging
+                    </li>
+                    <li>Conduct simulation experiments on Mitsuba and Falcor</li>
+                    <li>Advised by Professor Adithya Pediredla and mentored by Juhyeon Kim</li>
+                  </ul>
+                  </p>
+                  <p style="text-align:left;font-size:small;">image from Wikipedia</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
           <!-- PERSONAL PROJECTS -->
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading id="PersonalProjects">Selected Personal Projects</heading>
-              <p>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading id="PersonalProjects">Selected Personal Projects</heading>
+                  <p>
 
-              </p>
-              <p style="text-align:left;font-size:small;color:dodgerblue">
-                <a href="https://theivyzhang.github.io/portfolio.html">[click here for a complete project portfolio]</a></p>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
+                  </p>
+                  <p style="text-align:left;font-size:small;color:dodgerblue">
+                    <a href="https://theivyzhang.github.io/portfolio.html">[click here for a complete project
+                      portfolio]</a>
+                  </p>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
 
-          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ada_image'>
-                  <img src='images/multirobot.jpg' width="180"></div>
-                <img src='images/multirobot.jpg' width="180">
-              </div>
-              <script type="text/javascript">
-                function samurai_start() {
-                  document.getElementById('ada_image').style.opacity = "1";
-                }
 
-                function samurai_stop() {
-                  document.getElementById('ada_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Multi-robot Object Detection, Collision Avoidance and Path Planning</papertitle>
-              <br>
-              <p>
-                <strong>Python, ROS | May 2023 - June 2023 </strong>
+              <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ada_image'>
+                      <img src='images/multirobot.jpg' width="180">
+                    </div>
+                    <img src='images/multirobot.jpg' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function samurai_start() {
+                      document.getElementById('ada_image').style.opacity = "1";
+                    }
+
+                    function samurai_stop() {
+                      document.getElementById('ada_image').style.opacity = "0";
+                    }
+                    samurai_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Multi-robot Object Detection, Collision Avoidance and Path Planning</papertitle>
+                  <br>
+                  <p>
+                    <strong>Python, ROS | May 2023 - June 2023 </strong>
+                  <ul style="padding-left:20px">
+                    <li>Led a team of 5 to build a pipeline for machine-learning based non-static object detection and
+                      potential field smart path planning</li>
+                    <li>Potential-field path planning algorithm has 100% success rate in simulation</li>
+                    <li>Haar-cascade ML model is able to successfully lable 92% of input image frames from the robot
+                    </li>
+                  </ul>
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ada_image'>
+                      <img src='images/nn_images.jpg' width="145">
+                    </div>
+                    <img src='images/nn_images.jpg' width="145">
+                  </div>
+                  <script type="text/javascript">
+                    function samurai_start() {
+                      document.getElementById('ada_image').style.opacity = "1";
+                    }
+
+                    function samurai_stop() {
+                      document.getElementById('ada_image').style.opacity = "0";
+                    }
+                    samurai_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Neural Network System for Image Labelling</papertitle>
+                  <br>
+                  <p>
+                    <strong>Python, Jupyter Notebook | November 2022 </strong>
+                  <ul style="padding-left:20px">
+                    <li>Built a neural network for image analysis using linear algebra, vector modeling and poisson
+                      blending</li>
+                    <li>Implemented a data-fitting classifier that can predict the label of an input vector with 96.4%
+                      accuracy</li>
+                  </ul>
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='ada_image'>
+                      <img src='images/multic_graphic.jpg' width="180">
+                    </div>
+                    <img src='images/multic_graphic.jpg' width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function samurai_start() {
+                      document.getElementById('ada_image').style.opacity = "1";
+                    }
+
+                    function samurai_stop() {
+                      document.getElementById('ada_image').style.opacity = "0";
+                    }
+                    samurai_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Multi-client Collaborative Graphical Editor</papertitle>
+                  <br>
+                  <p>
+                    <strong>Java | May 2022 - June 2022 </strong>
+                  <ul style="padding-left:20px">
+                    <li>Constructed a collaborative multi-client graphical user interface that enabled clients to
+                      manipulate rectangles, segments, ellipses and polylines using IntelliJ’s built-in J-Frame Library
+                    </li>
+                    <li>Currently in closed beta test stage for ed-tech commercial clients, high schools and startups in
+                      Hong Kong</li>
+                  </ul>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- INDUSTRY -->
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading id="Industry">Industry Experience</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="padding: 20px; width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <papertitle>Boston Consulting Group Hong Kong</papertitle>
+                <br>
+                <p>
+                  <strong>Part-time Consulting Assistant| May 2022 - August 2022</strong>
                 <ul style="padding-left:20px">
-                  <li>Led a team of 5 to build a pipeline for machine-learning based non-static object detection and potential field smart path planning</li>
-                  <li>Potential-field path planning algorithm has 100% success rate in simulation</li>
-                  <li>Haar-cascade ML model is able to successfully lable 92% of input image frames from the robot</li>
+                  <li>Designed AI-powered outreach strategies for $700m telecom client, improved client retention and
+                    decreased turnover</li>
+                  <li>Presented primers on cloud computing in infrastructure software and Asia’s telecommunication
+                    competitive landscape</li>
+                  <li>Designed ESG retrofit solutions and financial plans to help $160m bank client minimize
+                    mortgage-related emissions</li>
+                  <li>Utilized Java, Python, Pandas and SQL to optimize internal BCG Gamma data analysis, increasing
+                    efficiency by 75%</li>
                 </ul>
-              </p>
-            </td>
-          </tr>	
+                </p>
+              </td>
 
-          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ada_image'>
-                  <img src='images/nn_images.jpg' width="145"></div>
-                <img src='images/nn_images.jpg' width="145">
-              </div>
-              <script type="text/javascript">
-                function samurai_start() {
-                  document.getElementById('ada_image').style.opacity = "1";
-                }
+            </tbody>
+          </table>
 
-                function samurai_stop() {
-                  document.getElementById('ada_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Neural Network System for Image Labelling</papertitle>
-              <br>
-              <p>
-                <strong>Python, Jupyter Notebook | November 2022 </strong>
+          <!-- TEACHING -->
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading id="Teaching">Teaching</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="padding: 20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Dartmouth CS Department</papertitle>
+                <br>
+                <p>
+                  <strong>Teaching Assistant | Since September 2022 </strong>
                 <ul style="padding-left:20px">
-                  <li>Built a neural network for image analysis using linear algebra, vector modeling and poisson blending</li>
-                  <li>Implemented a data-fitting classifier that can predict the label of an input vector with 96.4% accuracy</li>
+                  <li>Lead weekly office hours for classes covering programming skills, proofs, advanced algorithms and
+                    graph theory</li>
+                  <li>For COSC10: Automated grading for 6 assignments with 4 teaching assistants lowering grading time
+                    by 66% on average</li>
+                  <li>For COSC31: Consulted professors on class logistics and syllabus restructuring that improved class
+                    attendance by 30%</li>
                 </ul>
-              </p>
-            </td>
-          </tr>	
+                <strong>Courses: </strong> COSC 10 Problem Solving Via Object Oriented Programming (22F, 23W), COSC 31
+                Algorithms (23S), COSC 70 Foundations of Applied Computer Science (23F)
+                </p>
+              </td>
 
-          <tr onmouseout="samurai_stop()" onmouseover="samurai_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ada_image'>
-                  <img src='images/multic_graphic.jpg' width="180"></div>
-                <img src='images/multic_graphic.jpg' width="180">
-              </div>
-              <script type="text/javascript">
-                function samurai_start() {
-                  document.getElementById('ada_image').style.opacity = "1";
-                }
+            </tbody>
+          </table>
 
-                function samurai_stop() {
-                  document.getElementById('ada_image').style.opacity = "0";
-                }
-                samurai_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>Multi-client Collaborative Graphical Editor</papertitle>
-              <br>
-              <p>
-                <strong>Java | May 2022 - June 2022 </strong>
-                <ul style="padding-left:20px">
-                  <li>Constructed a collaborative multi-client graphical user interface that enabled clients to manipulate rectangles, segments, ellipses and polylines using IntelliJ’s built-in J-Frame Library</li>
-                  <li>Currently in closed beta test stage for ed-tech commercial clients, high schools and startups in Hong Kong</li>
-                </ul>
-              </p>
-            </td>
-          </tr>	
-          </tbody>
-        </table>
+          <!--HONORS-->
 
-         <!-- TEACHING -->
 
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading id="Teaching">Teaching</heading>
-          </td>
-        </tr>
-      </tbody></table>
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <papertitle>Teaching Assistant for CS Department Courses</papertitle>
-        <br>
-        <p>
-          <strong>Since September 2022 </strong>
-          <ul style="padding-left:20px">
-            <li>Lead weekly office hours for classes covering programming skills, proofs, advanced algorithms and graph theory</li>
-            <li>For COSC10: Automated grading for 6 assignments with 4 teaching assistants lowering grading time by 66% on average</li>
-            <li>For COSC31: Consulted professors on class logistics and syllabus restructuring that improved class attendance by 30%</li>
-          </ul>
-          <strong>Courses: </strong> COSC 10 Problem Solving Via Object Oriented Programming (22F, 23W), COSC 31 Algorithms (23S), COSC 70 Foundations of Applied Computer Science (23F)
-        </p>
-      </td>
-       
-        </tbody>
-      </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading id="Honors">Honors</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <p>
+            <ul>
+              <li>College Honor List, 2021-2022</li>
+              <li>Class of 2025 Emerging Leader</li>
+              <li>Citations for Academic Excellence (COSC 10, COSC 81)</li>
+              <li>URAD Scholar (2400 USD from 2022-2023)</li>
+              <li>Presidential Scholar (2400 USD for two consecutive terms in 2023-2024)</li>
+              <li>WorldQuant International Quant Trading Championship 2023 Regional Finalist</li>
+            </ul>
+            </p>
+          </table>
 
-      <!--HONORS-->
-      
+          <!--BLOG FOR FUN-->
 
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <heading id="Honors">Honors</heading>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading id="Blog">Blog for fun <a href="https://theivyzhang.github.io/blog_dir">[click me]</a>
+                  </heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Theme from <a href="https://github.com/jonbarron/website"> jonbarron/website</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </td>
       </tr>
-    </tbody></table>
-    <table>
-      <p>
-        <ul>
-          <li>College Honor List, 2021-2022</li>
-          <li>Class of 2025 Emerging Leader</li>
-          <li>Citation for Academic Excellence (COSC 10)</li>
-          <li>URAD Scholar (2400 USD from 2022-2023)</li>
-          <li>Presidential Scholar (2400 USD for two consecutive terms in 2023-2024)</li>
-          <li>WorldQuant International Quant Trading Championship 2023 Regional Finalist</li>
-        </ul>
-      </p>
-    </table>
-
-    <!--BLOG FOR FUN-->
-    
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr>
-      <td style="padding:20px;width:100%;vertical-align:middle">
-        <heading id="Blog">Blog for fun <a href="https://theivyzhang.github.io/blog_dir">[click me]</a></heading>
-      </td>
-    </tr>
-  </tbody></table>
-
-
-    
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                Theme from <a href="https://github.com/jonbarron/website"> jonbarron/website</a>
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
   </table>
 
 </body>

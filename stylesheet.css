@@ -101,7 +101,7 @@ papertitle {
   color: #0B9EDA
 }
 
-blogtitle {
+blogtitle, projecttitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
